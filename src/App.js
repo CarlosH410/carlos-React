@@ -1,10 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/navbar/navbar';
+
+
 
 function App() {
   return (
     <div className="App">
-      HOLA MUNDO 
+      <header className='app-hedaer'>
+        <Navbar />
+
+        
+
+      </header>
+      
        
     </div>
   );
